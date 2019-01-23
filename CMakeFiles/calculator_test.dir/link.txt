@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/calculator_test.dir/calculator_test.cc.o CMakeFiles/calculator_test.dir/calculator.cc.o  -o calculator_test -rdynamic lib/libgtest.a lib/libgmock_main.a lib/libgmock.a lib/libgtest.a -lpthread 
