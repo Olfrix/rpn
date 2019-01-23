@@ -75,5 +75,3 @@ std::pair<tResultType,double> calculate(const std::string& evals)
                                             std::istream_iterator<std::string>());
     return evalRPN(strippedString);
 }
-
-

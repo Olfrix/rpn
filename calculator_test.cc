@@ -45,7 +45,7 @@ TEST(Calculator, WrongOrder)
 
 TEST(Calculator, RandomString)
 {
-    tResultType result = calculate("zysopejrlgzlsqwktyjghbp").first;
+    tResultType result = calculate("zysopejrl@(#@($#@38283482348282gzlsqwktyjghbp").first;
     EXPECT_EQ(false, result);
 }
 
