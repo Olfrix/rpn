@@ -73,4 +73,16 @@ TEST(Calculator, EmptyString)
     EXPECT_EQ(false, result);
 }
 
+TEST(Calculator, BigNumber)
+{
+    double result = calculate("145 145 +").second;
+    EXPECT_DOUBLE_EQ(result, 290.0);
+}
+
+TEST(Calculator, NegativeNumber)
+{
+    double result = calculate("-145 146 +").second;
+    EXPECT_DOUBLE_EQ(result, 1.0);
+}
+
 //numeric limits with + - / *
