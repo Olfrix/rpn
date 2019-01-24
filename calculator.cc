@@ -66,7 +66,7 @@ std::pair<tResultType, double> evalRPN(const std::vector<std::string>& tokens)
         }
     }
 
-    assert(stack.size() == 1);
+    assert(!stack.empty());
     return std::make_pair(true, stack.top());
 }
 
